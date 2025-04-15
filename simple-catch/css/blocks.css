@@ -1,5 +1,5 @@
 /*
-Theme Name: Simple_Catch
+Theme Name: Simple_Catch_Pro
 Description: Used to style Gutenberg Blocks.
 */
 
@@ -454,15 +454,13 @@ p.has-drop-cap:not(:focus):first-letter {
 }
 
 /* Comments */
-.wp-block-latest-comments__comment {
-	border-top: 5px solid;
-	font-size: inherit;
-	margin: 0;
-	padding: 1.75em 0;
+.widget .wp-block-latest-comments {
+	margin: 0 0 20px 20px;
+	list-style: outside url(../images/ul-bg.png);
 }
 
-.wp-block-latest-comments article {
-	margin-bottom: 0;
+.widget .wp-block-latest-comments__comment {
+	list-style: inherit;
 }
 
 .blog:not(.has-sidebar) #primary .wp-block-latest-comments article,
@@ -580,14 +578,6 @@ p.has-drop-cap:not(:focus):first-letter {
 
 .wp-block-pullquote {
 	border-color: #ccc;
-}
-
-/*.wp-block-quote:not(.is-large):not(.is-style-large) {
-	border: 0;
-}*/
-
-.wp-block-latest-comments__comment {
-	border-color: #7f390a;
 }
 
 /*White*/

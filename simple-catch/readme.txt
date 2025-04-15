@@ -2,7 +2,7 @@
 Contributors: catchthemes
 Tags: one-column, two-columns, left-sidebar, right-sidebar, grid-layout, custom-menu, featured-images, full-width-template, theme-options, threaded-comments, translation-ready, blog, e-commerce
 Requires at least: 5.6
-Tested up to: 6.4
+Tested up to: 6.8
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -63,6 +63,11 @@ Added Translation for Brazilian Portuguese by Giovanna Chinellato (Email: giovan
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Change Log ==
+
+= 3.8.3 (Released: April 15, 2025) =
+* Bug Fixed: Text-domain issue
+* Updated: WordPress 6.8 ready
+* Updated: Compress theme screenshot image
 
 = 3.8.2 (Released: February 26, 2024) =
 * Updated: WordPress 6.4 ready
