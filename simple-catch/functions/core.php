@@ -492,6 +492,7 @@ if ( ! function_exists( 'simplecatch_headersocialnetworks' ) ) :
 
 		$elements = array( 	$options['social_facebook'],
 							$options['social_twitter'],
+							$options['social_twitter_x'],
 							$options['social_googleplus'],
 							$options['social_linkedin'],
 							$options['social_pinterest'],
@@ -514,6 +515,9 @@ if ( ! function_exists( 'simplecatch_headersocialnetworks' ) ) :
 							$options['social_myworld'],
 							$options['social_odnoklassniki'],
 							$options['social_goodreads'],
+							$options['social_tiktok'],
+							$options['social_bluesky'],
+							$options['social_threads'],
 							$options['social_skype'],
 							$options['social_soundcloud'],
 							$options['social_email']
@@ -562,7 +566,7 @@ if ( ! function_exists( 'simplecatch_headersocialnetworks' ) ) :
 				//Pinterest
 				if ( !empty( $options['social_pinterest'] ) ) {
 					$simplecatch_headersocialnetworks .=
-						'<li class="pinterest"><a href="'.esc_url( $options['social_pinterest'] ).'" title="'.sprintf( esc_attr__( '%s on Pinterest', 'simple-catch' ),get_bloginfo( 'name' ) ).'" target="_blank">'.get_bloginfo( 'name' ).' Twitter </a></li>';
+						'<li class="pinterest"><a href="'.esc_url( $options['social_pinterest'] ).'" title="'.sprintf( esc_attr__( '%s on Pinterest', 'simple-catch' ),get_bloginfo( 'name' ) ).'" target="_blank">'.get_bloginfo( 'name' ).' Pinterest </a></li>';
 				}
 				//Youtube
 				if ( !empty( $options['social_youtube'] ) ) {
@@ -673,6 +677,26 @@ if ( ! function_exists( 'simplecatch_headersocialnetworks' ) ) :
 				if ( !empty( $options['social_email'] ) && is_email($options['social_email'] ) ) {
 					$simplecatch_headersocialnetworks .=
 						'<li class="email"><a href="mailto:'.antispambot( sanitize_email( $options['social_email'] ) ).'" title="'.sprintf( esc_attr__( '%s on Email', 'simple-catch' ),get_bloginfo( 'name' ) ).'" target="_blank">'.get_bloginfo( 'name' ).' Email </a></li>';
+				}
+				//Twitter X
+				if ( !empty( $options['social_twitter_x'] ) ) {
+					$simplecatch_headersocialnetworks .=
+						'<li class="twitterx"><a href="'.esc_url( $options['social_twitter_x'] ).'" title="'.sprintf( esc_attr__( '%s on X', 'simple-catch' ),get_bloginfo( 'name' ) ).'" target="_blank">'.get_bloginfo( 'name' ).' X</a></li>';
+				}
+				//TikTok
+				if ( !empty( $options['social_tiktok'] ) ) {
+					$simplecatch_headersocialnetworks .=
+						'<li class="tiktok"><a href="'.esc_url( $options['social_tiktok'] ).'" title="'.sprintf( esc_attr__( '%s on TikTok', 'simple-catch' ),get_bloginfo( 'name' ) ).'" target="_blank">'.get_bloginfo( 'name' ).' TikTok </a></li>';
+				}
+				//Bluesky
+				if ( !empty( $options['social_bluesky'] ) ) {
+					$simplecatch_headersocialnetworks .=
+						'<li class="bluesky"><a href="'.esc_url( $options['social_bluesky'] ).'" title="'.sprintf( esc_attr__( '%s on Bluesky', 'simple-catch' ),get_bloginfo( 'name' ) ).'" target="_blank">'.get_bloginfo( 'name' ).' Bluesky </a></li>';
+				}
+				//Threads
+				if ( !empty( $options['social_threads'] ) ) {
+					$simplecatch_headersocialnetworks .=
+						'<li class="threads"><a href="'.esc_url( $options['social_threads'] ).'" title="'.sprintf( esc_attr__( '%s on Threads', 'simple-catch' ),get_bloginfo( 'name' ) ).'" target="_blank">'.get_bloginfo( 'name' ).' Threads </a></li>';
 				}
 				$simplecatch_headersocialnetworks .='
 			</ul><div class="clear"></div>';

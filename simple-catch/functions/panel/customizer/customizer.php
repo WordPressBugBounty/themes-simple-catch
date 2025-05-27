@@ -523,6 +523,15 @@ function simplecatch_customize_register( $wp_customize ) {
 			'section' 		=> 'social_links',
 			'default' 		=> $defaults['social_twitter']
 		),
+		'social_twitter_x' => array(
+			'id' 			=> 'social_twitter_x',
+			'title' 		=> esc_html__( 'X', 'simple-catch' ),
+			'description'	=> '',
+			'field_type' 	=> 'url',
+			'sanitize' 		=> 'esc_url_raw',
+			'section' 		=> 'social_links',
+			'default' 		=> $defaults['social_twitter_x']
+		),
 		'social_googleplus' => array(
 			'id' 			=> 'social_googleplus',
 			'title' 		=> esc_html__( 'Google+', 'simple-catch' ),
@@ -720,6 +729,33 @@ function simplecatch_customize_register( $wp_customize ) {
 			'sanitize' 		=> 'esc_url_raw',
 			'section' 		=> 'social_links',
 			'default' 		=> $defaults['social_goodreads']
+		),
+		'social_tiktok' => array(
+			'id' 			=> 'social_tiktok',
+			'title' 		=> esc_html__( 'TikTok', 'simple-catch' ),
+			'description'	=> '',
+			'field_type' 	=> 'url',
+			'sanitize' 		=> 'esc_url_raw',
+			'section' 		=> 'social_links',
+			'default' 		=> $defaults['social_tiktok']
+		),
+		'social_threads' => array(
+			'id' 			=> 'social_threads',
+			'title' 		=> esc_html__( 'Threads', 'simple-catch' ),
+			'description'	=> '',
+			'field_type' 	=> 'url',
+			'sanitize' 		=> 'esc_url_raw',
+			'section' 		=> 'social_links',
+			'default' 		=> $defaults['social_threads']
+		),
+		'social_bluesky' => array(
+			'id' 			=> 'social_bluesky',
+			'title' 		=> esc_html__( 'Bluesky', 'simple-catch' ),
+			'description'	=> '',
+			'field_type' 	=> 'url',
+			'sanitize' 		=> 'esc_url_raw',
+			'section' 		=> 'social_links',
+			'default' 		=> $defaults['social_bluesky']
 		),
 		'social_skype' => array(
 			'id' 			=> 'social_skype',

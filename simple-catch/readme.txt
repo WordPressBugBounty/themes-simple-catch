@@ -1,7 +1,7 @@
 === Simple Catch ===
 Contributors: catchthemes
 Tags: one-column, two-columns, left-sidebar, right-sidebar, grid-layout, custom-menu, featured-images, full-width-template, theme-options, threaded-comments, translation-ready, blog, e-commerce
-Requires at least: 5.6
+Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
@@ -63,6 +63,10 @@ Added Translation for Brazilian Portuguese by Giovanna Chinellato (Email: giovan
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Change Log ==
+
+= 3.9 (Released: May 27, 2025) =
+* Added: Twitter X, TikTok, Threads, and Bluesky icons
+* Updated: WordPress 6.8 ready
 
 = 3.8.3 (Released: April 15, 2025) =
 * Bug Fixed: Text-domain issue
@@ -533,7 +537,7 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Copyright ==
 
-Simple Catch WordPress Theme, Copyright 2012-2023 Catchthemes.com
+Simple Catch WordPress Theme, Copyright 2012-2025 Catchthemes.com
 Simple Catch is distributed under the terms of the GNU GPL v3
 
 == Resources ==

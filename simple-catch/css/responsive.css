@@ -747,6 +747,13 @@
 	ul.social-profile li.lastfm a:focus {
 		background-position: -480px -28px;
 	}
+	ul.social-profile li.twitterx a {
+		background-position: -29px 0;
+	}
+	ul.social-profile li.twitterx a:hover,
+	ul.social-profile li.twitterx a:focus {
+		background-position: -29px -28px;
+	}
 	#masthead .searchform .search-box {
 		padding: 0 4%;
 		width: 57%;

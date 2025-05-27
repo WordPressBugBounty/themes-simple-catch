@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simple Catch\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2024-02-26 18:58+0545\n"
-"PO-Revision-Date: 2024-02-26 18:58+0545\n"
+"POT-Creation-Date: 2025-05-27 13:47+0545\n"
+"PO-Revision-Date: 2025-05-27 13:47+0545\n"
 "Last-Translator: gatinhobranco <giovanna@chinellato.com.br>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
 "Language: pt_BR\n"
@@ -11,10 +11,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
-"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-KeywordsList: "
+"__;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -63,19 +63,19 @@ msgstr ""
 "Esse post é protegido por senha. Digite a senha para ver os comentários."
 
 # @ simplecatch
-#: comments.php:29 content.php:49 functions/core.php:1003 image.php:23
+#: comments.php:29 content.php:49 functions/core.php:1027 image.php:23
 #: page-blog.php:51
 msgid "No Comments"
 msgstr "Nenhum comentário"
 
 # @ simplecatch
-#: comments.php:29 content.php:49 functions/core.php:1003 image.php:23
+#: comments.php:29 content.php:49 functions/core.php:1027 image.php:23
 #: page-blog.php:51
 msgid "1 Comment"
 msgstr "1 Comentário"
 
 # @ simplecatch
-#: comments.php:29 content.php:49 functions/core.php:1003 image.php:23
+#: comments.php:29 content.php:49 functions/core.php:1027 image.php:23
 #: page-blog.php:51
 msgid "% Comments"
 msgstr "% Comentários"
@@ -86,7 +86,7 @@ msgid "Comments are closed."
 msgstr "Comentários desativados."
 
 # @ simplecatch
-#: content.php:47 functions/core.php:1001 image.php:21 page-blog.php:49
+#: content.php:47 functions/core.php:1025 image.php:21 page-blog.php:49
 msgid "By"
 msgstr "Por"
 
@@ -109,162 +109,162 @@ msgstr ""
 msgid "Primary Menu"
 msgstr "Menu Principal"
 
-#: functions/core.php:692 functions/core.php:1117
+#: functions/core.php:716 functions/core.php:1141
 msgid "Menu"
 msgstr "Menu"
 
-#: functions/core.php:695
+#: functions/core.php:719
 msgid "Primary menu"
 msgstr "Menu principal"
 
 # @ simplecatch
-#: functions/core.php:1024
+#: functions/core.php:1048
 msgid "Categories: "
 msgstr "Categorias:"
 
-#: functions/core.php:1026
+#: functions/core.php:1050
 msgid "Tags"
 msgstr "Tags"
 
 # @ simplecatch
-#: functions/core.php:1045
+#: functions/core.php:1069
 msgid "Name"
 msgstr "Nome"
 
 # @ simplecatch
-#: functions/core.php:1046
+#: functions/core.php:1070
 msgid "Email"
 msgstr "Email"
 
 # @ simplecatch
-#: functions/core.php:1047
+#: functions/core.php:1071
 msgid "Website"
 msgstr "Site"
 
-#: functions/panel/simplecatch_themeoptions_defaults.php:224
+#: functions/panel/simplecatch_themeoptions_defaults.php:228
 msgid "Y"
 msgstr "Y"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:244
+#: functions/panel/simplecatch_themeoptions_defaults.php:248
 msgid "WordPress"
 msgstr "WordPress"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:262
+#: functions/panel/simplecatch_themeoptions_defaults.php:266
 msgid "https://catchthemes.com"
 msgstr "https://catchthemes.com"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:287
+#: functions/panel/simplecatch_themeoptions_defaults.php:291
 msgid "Content on Left"
 msgstr "Conteúdo à esquerda"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:288
+#: functions/panel/simplecatch_themeoptions_defaults.php:292
 msgid "Content on Right"
 msgstr "Conteúdo à direita"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:289
+#: functions/panel/simplecatch_themeoptions_defaults.php:293
 msgid "No Sidebar"
 msgstr "Sem barra lateral"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:290
+#: functions/panel/simplecatch_themeoptions_defaults.php:294
 msgid "No Sidebar, Full Width"
 msgstr "Sem barra lateral, largura inteira"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:303
+#: functions/panel/simplecatch_themeoptions_defaults.php:307
 msgid "fade"
 msgstr "dissolver"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:304
+#: functions/panel/simplecatch_themeoptions_defaults.php:308
 msgid "wipe"
 msgstr "sobrepor"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:305
-#: functions/panel/simplecatch_themeoptions_defaults.php:307
+#: functions/panel/simplecatch_themeoptions_defaults.php:309
+#: functions/panel/simplecatch_themeoptions_defaults.php:311
 msgid "scrollUp"
 msgstr "deslizar para cima"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:306
+#: functions/panel/simplecatch_themeoptions_defaults.php:310
 msgid "scrollDown"
 msgstr "deslizar para baixo"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:308
+#: functions/panel/simplecatch_themeoptions_defaults.php:312
 msgid "scrollLeft"
 msgstr "deslizar para esquerda"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:309
+#: functions/panel/simplecatch_themeoptions_defaults.php:313
 msgid "scrollRight"
 msgstr "deslizar para direita"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:310
+#: functions/panel/simplecatch_themeoptions_defaults.php:314
 msgid "blindX"
 msgstr "trocarX"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:311
+#: functions/panel/simplecatch_themeoptions_defaults.php:315
 msgid "blindY"
 msgstr "trocarY"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:312
+#: functions/panel/simplecatch_themeoptions_defaults.php:316
 msgid "blindZ"
 msgstr "trocarZ"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:313
+#: functions/panel/simplecatch_themeoptions_defaults.php:317
 msgid "cover"
 msgstr "cobrir"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:314
+#: functions/panel/simplecatch_themeoptions_defaults.php:318
 msgid "shuffle"
 msgstr "embaralhar"
 
-#: functions/panel/simplecatch_themeoptions_defaults.php:327
+#: functions/panel/simplecatch_themeoptions_defaults.php:331
 msgid "Excerpt/Blog Display"
 msgstr "Mostrar trecho/resumo"
 
-#: functions/panel/simplecatch_themeoptions_defaults.php:328
+#: functions/panel/simplecatch_themeoptions_defaults.php:332
 msgid "Full Content Display"
 msgstr "Mostra conteúdo completo"
 
-#: functions/panel/simplecatch_themeoptions_defaults.php:341
+#: functions/panel/simplecatch_themeoptions_defaults.php:345
 msgid "Homepage / Frontpage"
 msgstr "Página inicial"
 
-#: functions/panel/simplecatch_themeoptions_defaults.php:342
+#: functions/panel/simplecatch_themeoptions_defaults.php:346
 msgid "Entire Site"
 msgstr "Todo o site"
 
-#: functions/panel/simplecatch_themeoptions_defaults.php:343
+#: functions/panel/simplecatch_themeoptions_defaults.php:347
 msgid "Disable"
 msgstr "Desativar"
 
-#: functions/panel/simplecatch_themeoptions_defaults.php:356
+#: functions/panel/simplecatch_themeoptions_defaults.php:360
 msgid "Featured Image Slider"
 msgstr "Slider de imagens destacadas"
 
 # @ simplecatch
-#: functions/panel/simplecatch_themeoptions_defaults.php:357
+#: functions/panel/simplecatch_themeoptions_defaults.php:361
 msgid "Featured Post Slider"
 msgstr "Slider de posts destacados"
 
-#: functions/panel/simplecatch_themeoptions_defaults.php:358
+#: functions/panel/simplecatch_themeoptions_defaults.php:362
 msgid "Featured Page Slider"
 msgstr "Slide de páginas destacadas"
 
-#: functions/panel/simplecatch_themeoptions_defaults.php:359
+#: functions/panel/simplecatch_themeoptions_defaults.php:363
 msgid "Featured Category Slider"
 msgstr "Slider de categorias destacadas"
 

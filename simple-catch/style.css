@@ -4,7 +4,7 @@ Theme URI: https://catchthemes.com/themes/simple-catch
 Author: Catch Themes Team
 Author URI: https://catchthemes.com
 Description: Simple Catch is a Highly Customizable Simple, Clean and Responsive WordPress Theme for anyone looking to give their website a professional look. It's easy customization through WordPress theme customizer, ultra-readable typography, large thumbnail and featured slider makes it outstanding. It comes with a wide variety of options: like Custom Menu, Custom Widgets, Custom Layouts, Featured Post Slider, Header Logo, Footer Logo, Fav Icon, Header Image, Background Image, Social Icons, Color Schemes, Custom CSS Styles, Excerpt settings and scroll up. This theme is translation ready and also currently translated in Polish, Russian, Finnish, French, Dutch, Greek, Croatian, Chinese, Spanish, German, Italian, Danish, Czech, Hungarian and Brazilian Portuguese languages. Check out Theme Instructions at https://catchthemes.com/theme-instructions/simple-catch/, Support at https://catchthemes.com/support/ and Demo at https://catchthemes.com/demo/simplecatch/
-Version: 3.8.3
+Version: 3.9
 Requires at least: 5.6
 Tested up to: 6.8
 Requires PHP: 5.6
@@ -836,6 +836,35 @@ ul.social-profile li.email a:hover,
 ul.social-profile li.email a:focus {
 	background-position: -1119px -43px;
 }
+ul.social-profile li.bluesky a {
+	background-position: -1248px 0;
+}
+ul.social-profile li.bluesky a:hover,
+ul.social-profile li.bluesky a:focus {
+	background-position: -1248px -43px;
+}
+ul.social-profile li.tiktok a {
+	background-position: -1293px 0;
+}
+ul.social-profile li.tiktok a:hover,
+ul.social-profile li.tiktok a:focus {
+	background-position: -1293px -43px;
+}
+ul.social-profile li.twitterx a {
+	background-position: -1336px 0;
+}
+ul.social-profile li.twitterx a:hover,
+ul.social-profile li.twitterx a:focus {
+	background-position: -1336px -43px;
+}
+ul.social-profile li.threads a {
+	background-position: -1379px 0;
+}
+ul.social-profile li.threads a:hover,
+ul.social-profile li.threads a:focus {
+	background-position: -1379px -43px;
+}
+
 /* Search Form */
 #masthead .searchform {
     float: right;
